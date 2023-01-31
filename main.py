@@ -85,5 +85,7 @@ print("Len Cleaned Words: ", len(clean_words))
 fdist = FreqDist(clean_words)
 fdist.most_common(15)
 
+print("Data Points: ", fdist.items())
+
 # display the plot
 fdist.plot(15)
