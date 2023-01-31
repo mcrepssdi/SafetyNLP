@@ -14,15 +14,13 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
-import nltk
-#nltk.download('punkt')
-#nltk.download('stopwords')
-#nltk.download()
+# nltk.download('punkt')
+# nltk.download('stopwords')
+# nltk.download()
 from nltk import sent_tokenize
 from nltk import word_tokenize
-from nltk.probability import FreqDist
 from nltk.corpus import stopwords
-import matplotlib.pyplot as plt
+from nltk.probability import FreqDist
 
 # Open text
 textFile = open("words.txt")
