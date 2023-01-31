@@ -1,0 +1,10 @@
+Artificial Neural Networks (ANNs) can be defined as a collection of interconnectedlayers, neurons and weighted connections.
+Each layer is connected to the previouslayer by weighted connections that couple each neuron in a layer to the next neuronin the adjacent layer.
+An ANN resembles a human brain with multiple interconnectedsynapses which allow for the signal to easily flow from one neuron to the next.
+Thereare two distinct constructs which an ANN can assume; they can be thought of asSupervised and Unsupervised networks. Supervised neural networks have knownoutcomes
+while Unsupervised neural networks have unknown outcomes. This thesiswill primarily focus on Supervised neural networks.The contributions of this thesis are two-fold.
+One, it offers a comprehensive studyof Object-oriented Programming (OOP) design principles that have been employedto design ANNs. Two, it designs and implements a scalable
+OOP solution to ANNs.The ANN solution presented in this thesis provides an efficient and accurate statisticalprediction model. A Multi-layer feed-forward neural network using
+back-propagationis used to demonstrate OOP design techniques. The neural network consists of threelayers: one input layer, one hidden layer, and one output layer.
+ The input layerconsists of two neurons; the hidden layer consists of three neurons; while the outputlayer consists of one neutron. The neural network utilizes the Sigmoid function asiii
+ the activation function so that all data points are normalized to values between [0,1].Compared to two existing models (Encog and Neuroph), the approach in this workproduces a more accurate prediction.
